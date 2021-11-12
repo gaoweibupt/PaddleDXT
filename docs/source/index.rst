@@ -11,7 +11,7 @@ Welcome to paddledxt's documentation!
    :caption: Quick Start
 
 
-.. mdinclude::hello.md 
+   hello.md 
  
 Indices and tables
 ==================
