@@ -10,7 +10,7 @@ Welcome to paddledxt's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   hello
 
 Indices and tables
 ==================
