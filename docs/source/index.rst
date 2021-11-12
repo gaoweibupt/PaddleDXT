@@ -8,14 +8,13 @@ Welcome to PaddleDXT's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Quick Start
 
-   test/hello
+   quickstart/compile
 
+.. toctree::
+   :maxdepth: 2
+   :caption: INTRODUCTION
 
-Indices and tables
-==================
+   introduction/xuperdb
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
