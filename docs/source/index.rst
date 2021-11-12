@@ -7,8 +7,8 @@ Welcome to paddledxt's documentation!
 =====================================
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Quick Start
+    :maxdepth: 1
+    :caption: Quick Start
 
-   hello.md 
+    hello.md 
  
