@@ -12,34 +12,23 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-
-sys.path.append(os.path.abspath('../..'))
-sys.path.append(os.path.abspath('..'))
-
-#sys.path.insert(0, os.path.abspath('.'))
+# import os
+# import sys
+# sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
-import commonmark
-import recommonmark
 
-from recommonmark.parser import CommonMarkParser
-from recommonmark.transform import AutoStructify
+
 # -- Project information -----------------------------------------------------
 
-project = u'paddledxt'
+project = u'PaddleDXT'
 copyright = u'2021, gaowei'
 author = u'gaowei'
 
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
-release = u'main'
+release = u''
 
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
 
 # -- General configuration ---------------------------------------------------
 
@@ -60,12 +49,8 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-source_suffix = [
-        '.rst', 
-        '.md',
-]
-
-#source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
+# source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
@@ -91,7 +76,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -119,7 +104,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'paddledxtdoc'
+htmlhelp_basename = 'PaddleDXTdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -146,7 +131,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'paddledxt.tex', u'paddledxt Documentation',
+    (master_doc, 'PaddleDXT.tex', u'PaddleDXT Documentation',
      u'gaowei', 'manual'),
 ]
 
@@ -156,7 +141,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'paddledxt', u'paddledxt Documentation',
+    (master_doc, 'paddledxt', u'PaddleDXT Documentation',
      [author], 1)
 ]
 
@@ -167,8 +152,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'paddledxt', u'paddledxt Documentation',
-     author, 'paddledxt', 'One line description of project.',
+    (master_doc, 'PaddleDXT', u'PaddleDXT Documentation',
+     author, 'PaddleDXT', 'One line description of project.',
      'Miscellaneous'),
 ]
 
@@ -189,17 +174,3 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-
-# app setup hook
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-        #'url_resolver': lambda url: github_doc_root + url,
-        'auto_toc_tree_section': 'Contents',
-        'enable_math': False,
-        'enable_inline_math': False,
-        'enable_eval_rst': True,
-        'enable_auto_doc_ref': True,
-    }, True)
-    app.add_transform(AutoStructify)
-
