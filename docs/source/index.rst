@@ -7,10 +7,10 @@ Welcome to paddledxt's documentation!
 =====================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
-   hello
+   hello.md
 
 Indices and tables
 ==================
