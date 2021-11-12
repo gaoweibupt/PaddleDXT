@@ -8,5 +8,12 @@ Welcome to paddledxt's documentation!
 
 .. toctree::
 
-    hello.md 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   hello
+
+
  
