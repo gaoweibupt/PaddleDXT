@@ -10,8 +10,9 @@ Welcome to paddledxt's documentation!
    :maxdepth: 1
    :caption: Quick Start
 
-   hello.md
 
+.. mdinclude::hello.md 
+ 
 Indices and tables
 ==================
 
