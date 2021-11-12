@@ -10,12 +10,5 @@ Welcome to paddledxt's documentation!
    :maxdepth: 1
    :caption: Quick Start
 
-
    hello.md 
  
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
