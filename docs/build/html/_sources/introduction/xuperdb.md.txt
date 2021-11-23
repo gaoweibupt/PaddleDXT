@@ -1,3 +1,0 @@
-# XuperDB
-
-## What is XuperDB?
