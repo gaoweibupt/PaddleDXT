@@ -12,7 +12,6 @@ Welcome to PaddleDTX's documentation!
 
    introduction/word
    introduction/introduction
-   introduction/framework
    introduction/doing
 
 .. toctree::
@@ -29,6 +28,7 @@ Welcome to PaddleDTX's documentation!
    :maxdepth: 2
    :caption: 系统详解
 
+   details/framework
    details/DAI
    details/XuperDB
 
