@@ -8,24 +8,45 @@ Welcome to PaddleDTX's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: 系统简介
+   :caption: 整体介绍
 
-   word
-   introduction
+   introduction/word
+   introduction/introduction
+   introduction/framework
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: 快速入门
 
-   quickstart
-   quickstart_linear
-   quickstart_logistic
+   quickstart/compile-install
+   quickstart/client
+   quickstart/linear
+   quickstart/logistic
+   
 
 .. toctree::
    :maxdepth: 2
    :caption: 系统详解
 
-   details
-   
+   details/DAI
+   details/XuperDB
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 团队
+
+   team
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 参与开发
+
+   join
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 参考文献
+
+   reference
 
