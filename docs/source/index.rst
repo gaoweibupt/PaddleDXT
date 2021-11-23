@@ -1,20 +1,31 @@
-.. PaddleDXT documentation master file, created by
-   sphinx-quickstart on Fri Nov 12 16:01:39 2021.
+.. PaddleDTX documentation master file, created by
+   sphinx-quickstart on Tue Nov 23 10:50:10 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PaddleDXT's documentation!
+Welcome to PaddleDTX's documentation!
 =====================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Quick Start
+   :maxdepth: 1
+   :caption: 系统简介
 
-   quickstart/compile
+   word
+   introduction
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 快速入门
+
+   quickstart
+   quickstart_linear
+   quickstart_logistic
 
 .. toctree::
    :maxdepth: 2
-   :caption: INTRODUCTION
+   :caption: 系统详解
 
-   introduction/xuperdb
+   details
+   
+
 

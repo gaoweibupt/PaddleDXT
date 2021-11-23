@@ -17,10 +17,9 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 
-
 # -- Project information -----------------------------------------------------
 
-project = u'PaddleDXT'
+project = u'PaddleDTX'
 copyright = u'2021, gaowei'
 author = u'gaowei'
 
@@ -50,7 +49,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 source_suffix = ['.rst', '.md']
-# source_suffix = '.rst'
+#source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
@@ -60,7 +59,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = u'zh_CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -78,6 +77,8 @@ pygments_style = None
 #
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -104,7 +105,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PaddleDXTdoc'
+htmlhelp_basename = 'PaddleDTXdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -131,7 +132,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PaddleDXT.tex', u'PaddleDXT Documentation',
+    (master_doc, 'PaddleDTX.tex', u'PaddleDTX Documentation',
      u'gaowei', 'manual'),
 ]
 
@@ -141,7 +142,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'paddledxt', u'PaddleDXT Documentation',
+    (master_doc, 'paddledtx', u'PaddleDTX Documentation',
      [author], 1)
 ]
 
@@ -152,8 +153,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PaddleDXT', u'PaddleDXT Documentation',
-     author, 'PaddleDXT', 'One line description of project.',
+    (master_doc, 'PaddleDTX', u'PaddleDTX Documentation',
+     author, 'PaddleDTX', 'One line description of project.',
      'Miscellaneous'),
 ]
 
