@@ -20,8 +20,8 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = u'PaddleDTX'
-copyright = u'2021, gaowei'
-author = u'gaowei'
+copyright = u'2021, baidu'
+author = u'baidu'
 
 # The short X.Y version
 version = u''
@@ -133,7 +133,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'PaddleDTX.tex', u'PaddleDTX Documentation',
-     u'gaowei', 'manual'),
+     u'baidu', 'manual'),
 ]
 
 
