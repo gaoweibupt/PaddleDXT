@@ -13,6 +13,7 @@ Welcome to PaddleDTX's documentation!
    introduction/word
    introduction/introduction
    introduction/framework
+   introduction/doing
 
 .. toctree::
    :maxdepth: 2
