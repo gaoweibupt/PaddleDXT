@@ -15,7 +15,7 @@ Welcome to PaddleDTX's documentation!
    introduction/doing
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 快速入门
 
    quickstart/compile-install
@@ -31,7 +31,7 @@ Welcome to PaddleDTX's documentation!
    details/framework
    details/DAI
    details/XuperDB
-
+   details/crypto
 
 .. toctree::
    :maxdepth: 1
