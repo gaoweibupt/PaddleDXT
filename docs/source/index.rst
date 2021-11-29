@@ -15,9 +15,10 @@ Welcome to PaddleDTX's documentation!
    introduction/ongoing
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: 快速入门
 
+   quickstart/quickstart
    quickstart/compile-install
    quickstart/client
    quickstart/linear
