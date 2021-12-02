@@ -29,6 +29,6 @@ PaddleDTX中，联邦学习分为训练过程和预测过程。计算需求方�
 [Executor配置](https://github.com/PaddlePaddle/PaddleDTX/blob/master/dai/conf/config.toml)
 
 ## 命令行工具
-[Requester命令使用说明](https://github.com/PaddlePaddle/PaddleDTX/blob/master/dai/requester/cmd/README.md)
+<a href="https://github.com/PaddlePaddle/PaddleDTX/blob/master/dai/requester/cmd/README.md">Requester命令使用说明</a>
 
-[Executor命令使用说明](https://github.com/PaddlePaddle/PaddleDTX/blob/master/dai/executor/cmd/README.md)
+<a href="https://github.com/PaddlePaddle/PaddleDTX/blob/master/dai/executor/cmd/README.md">Executor命令使用说明</a>
