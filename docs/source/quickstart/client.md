@@ -4,7 +4,7 @@ PaddleDTX各方使用的客户端工具详细使用说明如下：
 
 * [Distributed AI 计算需求方命令使用说明](https://github.com/PaddlePaddle/PaddleDTX/blob/master/dai/requester/cmd/README.md)
 * [Distributed AI 任务执行方命令使用说明](https://github.com/PaddlePaddle/PaddleDTX/blob/master/dai/executor/cmd/README.md)
-* [XuperDB 客户端命令使用说明](https://github.com/PaddlePaddle/PaddleDTX/blob/master/xdb/cmd/client/README.md  )
+* [XuperDB 客户端命令使用说明](./../xdb/cmd/client/README.md)
 
 本章重点介绍使用 PaddleDTX 时的几个常用命令。
 
