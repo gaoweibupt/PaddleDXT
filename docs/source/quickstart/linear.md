@@ -154,7 +154,7 @@ Root mean square error of Boston house price prediction is: 4.568173732971698
     4. 为计算需求方下载预测结果
     5. 计算模型的均方根误差
     <br>
-    每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md)。
+    每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md) 。
 
 ## 模型评估
 

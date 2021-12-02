@@ -74,7 +74,7 @@ Requester published logistic train task: TaskID: 95104913-c6cc-4520-bab1-2be814f
     2. 数据持有方A/B授权任务执行节点A/B确认任务
     3. 计算需求方启动任务
     <br>
-    每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md)。
+    每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md) 。
 
 查看训练任务：
 
