@@ -1,8 +1,8 @@
 # 案例应用-线性回归算法测试
 
-本小节将通过介绍机器学习中的经典案例 波士顿房价预测问题 在 PaddleDTX 中是如何建模和预测的来帮助您更好的理解 PaddleDTX。
+在本节中，我们使用 PaddleDTX 解决波士顿房价预测问题，帮助您更好的理解 PaddleDTX。
 
-您可以参考 [快速安装](https://paddledtx.readthedocs.io/zh_CN/latest/quickstart/quickstart.html) 来准备 PaddleDTX 的环境。
+您可以参考 [快速安装](./quickstart.md) 来准备 PaddleDTX 的环境。
 
 ## 案例简介
 本案例中我们使用了来自 UCI 机器学习数据库中的波士顿房屋信息数据。该数据集统计了波士顿郊区不动产税、城镇人均犯罪率等共计13个特征指标和平均房价，我们通过机器学习找到特征指标和房价之间的关系，进而预测该地区房价，这是一个典型线性回归计算案例。
@@ -80,10 +80,11 @@ Vertical logistic prediction sample files: 96140537-8c7a-46cb-b2d3-0540e8cadc0e,
 ```
 
 命令执行说明：
+
 * **upload_sample_files** 命令会自动化执行如下2个步骤：
     1. 为数据持有方A与B分别创建文件存储所需的命名空间
     2. 上传数据持有方A与B拥有的波士顿房价预测和鸢尾花数据分类所需的训练及预测样本文件
-
+    <br>
     每个步骤对应的客户端命令详情参考 [操作 XuperDB](./client.md)。
 
 样本上传执行结果说明：
@@ -124,7 +125,7 @@ Requester published linear train task: TaskID: 91d9c0b7-996b-4954-86e8-95048e91a
     1. 计算需求方发布波士顿房价预测训练任务
     2. 数据持有方A/B授权任务执行节点A/B确认任务
     3. 计算需求方启动任务
-
+    <br>
     每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md)。
 
 查看训练任务：
@@ -152,7 +153,7 @@ Root mean square error of Boston house price prediction is: 4.568173732971698
     3. 计算需求方启动任务
     4. 为计算需求方下载预测结果
     5. 计算模型的均方根误差
-   
+    <br>
     每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md)。
 
 ## 模型评估

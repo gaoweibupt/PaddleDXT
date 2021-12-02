@@ -147,7 +147,7 @@ $ ./requester-cli task start --id a7dfac43-fa51-423e-bd05-8e0965c708a8 -k 14a54c
 $ requester-cli task result --id a7dfac43-fa51-423e-bd05-8e0965c708a8 -k 14a54c188d0071bc1b161a50fe7eacb74dcd016993bb7ad0d5449f72a8780e21 --conf ./testdata/executor/node1/conf/config.toml  -o ./output.csv
 ```
 
-各参数如下：
+各参数说明如下：
 * --id: 预测任务的 id
 * -k: 需求方的私钥
 * --conf: 指定使用的配置文件

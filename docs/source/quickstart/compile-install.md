@@ -6,7 +6,7 @@
 PaddleDTX 使用 golang 进行开发，当您使用源码进行编译和安装时，首先需要准备源码以及编译的环境：
 
 * 系统环境, 推荐使用Linux或MacOS操作系统
-* golang编译器, 推荐版本1.14+
+* golang编译器, 推荐版本1.13+
 [点击下载安装golang](https://studygolang.com/dl)
 * git源码下载工具
 [点击下载安装git](https://git-scm.com/download)

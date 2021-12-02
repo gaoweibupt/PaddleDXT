@@ -1,8 +1,8 @@
 # 案例应用-逻辑回归算法测试
 
-本小节将通过介绍机器学习中的经典案例 鸢尾花的分类问题 在 PaddleDTX 中是如何建模和预测的来帮助您更好的理解 PaddleDTX。
+在本节中，我们使用 PaddleDTX 解决鸢尾花的分类问题，帮助您更好的理解 PaddleDTX。
 
-您可以参考 [快速安装](https://paddledtx.readthedocs.io/zh_CN/latest/quickstart/quickstart.html) 来准备 PaddleDTX 的环境。
+您可以参考 [快速安装](./quickstart.md) 来准备 PaddleDTX 的环境。
 
 ## 案例简介
 
@@ -73,7 +73,7 @@ Requester published logistic train task: TaskID: 95104913-c6cc-4520-bab1-2be814f
     1. 计算需求方发布鸢尾花品种分类训练任务
     2. 数据持有方A/B授权任务执行节点A/B确认任务
     3. 计算需求方启动任务
-
+    <br>
     每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md)。
 
 查看训练任务：
@@ -104,7 +104,7 @@ Accuracy of Iris plants prediction is: 1.00
     4. 计算需求方下载预测结果
     5. 计算模型的均方根误差
     6. 计算预测的准确率
-
+    <br>
     每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md)。
 
 ## 模型评估
