@@ -73,7 +73,7 @@ Requester published logistic train task: TaskID: 95104913-c6cc-4520-bab1-2be814f
     1. 计算需求方发布鸢尾花品种分类训练任务
     2. 数据持有方A/B授权任务执行节点A/B确认任务
     3. 计算需求方启动任务
-    <br>
+
 每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md) 。
 
 查看训练任务：
@@ -104,7 +104,7 @@ Accuracy of Iris plants prediction is: 1.00
     4. 计算需求方下载预测结果
     5. 计算模型的均方根误差
     6. 计算预测的准确率
-    <br>
+
 每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md) 。
 
 ## 模型评估

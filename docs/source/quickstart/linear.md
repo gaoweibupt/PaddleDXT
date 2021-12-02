@@ -84,8 +84,8 @@ Vertical logistic prediction sample files: 96140537-8c7a-46cb-b2d3-0540e8cadc0e,
 * **upload_sample_files** 命令会自动化执行如下2个步骤：
     1. 为数据持有方A与B分别创建文件存储所需的命名空间
     2. 上传数据持有方A与B拥有的波士顿房价预测和鸢尾花数据分类所需的训练及预测样本文件
-    <br>
-    每个步骤对应的客户端命令详情参考 [操作 XuperDB](./client.md) 。
+
+每个步骤对应的客户端命令详情参考 [操作 XuperDB](./client.md) 。
 
 样本上传执行结果说明：
 
@@ -125,8 +125,8 @@ Requester published linear train task: TaskID: 91d9c0b7-996b-4954-86e8-95048e91a
     1. 计算需求方发布波士顿房价预测训练任务
     2. 数据持有方A/B授权任务执行节点A/B确认任务
     3. 计算需求方启动任务
-    <br>
-    每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md) 。
+
+每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md) 。
 
 查看训练任务：
 
@@ -153,8 +153,8 @@ Root mean square error of Boston house price prediction is: 4.568173732971698
     3. 计算需求方启动任务
     4. 为计算需求方下载预测结果
     5. 计算模型的均方根误差
-    <br>
-    每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md) 。
+
+每个步骤对应的客户端命令详情参考 [操作 Distributed AI](./client.md) 。
 
 ## 模型评估
 
