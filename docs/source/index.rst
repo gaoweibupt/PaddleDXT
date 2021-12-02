@@ -10,8 +10,8 @@ Welcome to PaddleDTX's documentation!
    :maxdepth: 1
    :caption: 整体介绍
 
-   introduction/word
    introduction/introduction
+   introduction/concepts
    introduction/ongoing
 
 .. toctree::
